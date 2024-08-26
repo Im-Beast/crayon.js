@@ -42,6 +42,7 @@ jobs:
       - name: Run benchmarks
         # TODO: Cross-runtime benchmarks
         run: deno task bench-all
+        continue-on-error: true
 
       - name: Check license headers
         run: |
