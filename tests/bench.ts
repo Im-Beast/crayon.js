@@ -1,5 +1,5 @@
 // Copyright 2024 Im-Beast. All rights reserved. MIT license.
-import crayon, { buildCrayon } from "../main.ts";
+import { buildCrayon, crayon } from "../main.ts";
 import "@crayon/literal";
 
 import chalk4 from "npm:chalk@^4";
