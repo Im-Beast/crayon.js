@@ -76,6 +76,7 @@ const NO_COLOR = "Deno" in globalThis
   ? Deno.noColor
   : "process" in globalThis
   // @ts-expect-error Node specific code
+  // deno-lint-ignore no-node-globals
   ? process.env["NO_COLOR"]
   : undefined;
 
